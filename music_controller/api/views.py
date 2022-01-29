@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def main(request):
-    return HttpResponse("Hello, world. You're at the music_controller index.")
+    return HttpResponse("<h1>Hello, world. You're at the music_controller index.</h1")
